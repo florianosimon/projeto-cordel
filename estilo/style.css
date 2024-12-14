@@ -32,7 +32,7 @@ header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
     font-family: var(--fontetitulo);
-    font-size: 8vw;
+    font-size: 10vw;
 }
 
 header > p {
@@ -55,6 +55,7 @@ section {
     line-height: 2em;
     padding-left: 30px;
     font-size: 3vw;
+    font-family: var(--fontetexto);
 }
 
 section > p {
@@ -71,6 +72,8 @@ section.imagem {
     color: white;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.495);
     background-attachment: fixed;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 section.imagem > p {
@@ -78,7 +81,7 @@ section.imagem > p {
     display: inline-block;
     padding: 5px;
     text-shadow: 1px 1px 0px black;
-    background-size: cover;
+    
     
 }
 
